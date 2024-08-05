@@ -19,6 +19,8 @@
 
 A generic TypeScript to Lua transpiler. Write your code in TypeScript and publish Lua!
 
+*This fork changhes the way classes are constructed, going from metatables to functions inside the table*
+
 Large projects written in Lua can become hard to maintain and make it easy to make mistakes. Writing code in TypeScript instead improves maintainability, readability and robustness, with the added bonus of good [tooling] support (including [ESLint], [Prettier], [Visual Studio Code] and [WebStorm]). This project is useful in any environment where Lua code is accepted, with the powerful option of simply declaring any existing API using TypeScript declaration files.
 
 [tooling]: https://typescripttolua.github.io/docs/editor-support
