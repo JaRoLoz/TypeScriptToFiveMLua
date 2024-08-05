@@ -28,19 +28,3 @@ Large projects written in Lua can become hard to maintain and make it easy to ma
 [prettier]: https://prettier.io/
 [visual studio code]: https://code.visualstudio.com/
 [webstorm]: https://www.jetbrains.com/webstorm/
-
-## Getting Started
-
-To install TypeScriptToLua add the `typescript-to-lua` npm package:
-
-```bash
-$ npm install -D typescript-to-lua
-```
-
-This package includes the `tstl` command line application, which can be used similarly to `tsc`:
-
-```
-$ npx tstl
-```
-
-For more information, check out [Getting Started](https://typescripttolua.github.io/docs/getting-started) in our documentation.
