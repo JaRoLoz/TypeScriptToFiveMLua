@@ -793,7 +793,7 @@ export class LuaPrinter {
 
         const name = this.printIdentifier(expression.name);
 
-        chunks.push(...prefix, ":", name, "(");
+        chunks.push(...prefix, ".", name, "(");
 
         if (expression.params) {
             chunks.push(...this.printExpressionList(expression.params));
