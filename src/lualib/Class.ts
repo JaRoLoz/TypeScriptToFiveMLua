@@ -1,6 +1,7 @@
 export function __TS__Class(): LuaClass {
     const c: LuaClass = { prototype: {} };
     c.prototype.__index = c.prototype;
-    c.prototype.constructor = c;
+    //@ts-ignore
+    c.prototype.____constructor = () => {};
     return c;
 }
