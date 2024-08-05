@@ -122,6 +122,7 @@ export enum LuaLibFeature {
     Unpack = "Unpack",
     Using = "Using",
     UsingAsync = "UsingAsync",
+    SetMethodsR = "SetMethodsR"
 }
 
 export interface LuaLibFeatureInfo {
