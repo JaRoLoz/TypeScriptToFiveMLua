@@ -24,6 +24,14 @@ export function transformClassInstanceFields(
             // self[fieldName] = value
             const assignClassField = lua.createAssignmentStatement(selfIndex, value, f);
 
+            // check params for unused ____self parameter
+            const right = assignClassField.right[0] as lua.FunctionExpression;
+            const params = right.params && right.params[0];
+            if (params && params.text === "____") {
+                // remove the first parameter
+                right.params!.shift();
+            }
+
             return assignClassField;
         });
 
