@@ -36,7 +36,7 @@
         "postversion": "git push && git push --tags"
     },
     "bin": {
-        "tstl": "dist/tstl.js"
+        "tstl-tables": "dist/tstl.js"
     },
     "engines": {
         "node": ">=16.10.0"
