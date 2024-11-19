@@ -33,7 +33,8 @@
         "fix:prettier": "prettier --write .",
         "check:language-extensions": "tsc --strict language-extensions/index.d.ts",
         "preversion": "npm run build && npm test",
-        "postversion": "git push && git push --tags"
+        "postversion": "git push && git push --tags",
+        "install": "npm run build"
     },
     "bin": {
         "tstl-tables": "dist/tstl.js"
