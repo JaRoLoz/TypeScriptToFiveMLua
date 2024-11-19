@@ -1,11 +1,11 @@
 {
-    "name": "typescript-to-lua",
+    "name": "typescript-to-fivem-lua",
     "version": "1.27.0",
     "description": "A generic TypeScript to Lua transpiler. Write your code in TypeScript and publish Lua!",
-    "repository": "https://github.com/TypeScriptToLua/TypeScriptToLua",
+    "repository": "https://github.com/JaRoLoz/TypeScriptToFiveMLua",
     "homepage": "https://typescripttolua.github.io/",
     "bugs": {
-        "url": "https://github.com/TypeScriptToLua/TypeScriptToLua/issues"
+        "url": "https://github.com/JaRoLoz/TypeScriptToFiveMLua/issues"
     },
     "license": "MIT",
     "keywords": [
